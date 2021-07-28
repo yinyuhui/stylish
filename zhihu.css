@@ -1,0 +1,63 @@
+@-moz-document domain('zhihu.com') {
+    body, 
+    .Topstory-tabCard, 
+    .TopstoryItem, 
+    .ContentItem-actions,
+    .CommentsV2-withPagination,
+    .CommentTopbar,
+    .CommentListV2-header-divider,
+    .HotList,
+    .HotItem,
+    .QuestionHeader,
+    .QuestionHeader-footer,
+    .QuestionAnswer-content,
+    .Card,
+    .CommentItemV2,
+    .NestComment,
+    .CommentsV2-footer {
+        background: #333;
+        color: #ccc; 
+    }
+
+    .QuestionMainAction,
+    .KfeCollection-IntroCard-newStyle-pc {
+        background: #444;
+    }
+
+    header, 
+    .GlobalSideBar,
+    .Question-sideColumn,
+    .List-header,
+    .QuestionHeader-side {
+        display: none;
+    }
+
+    .ContentItem-title,
+    .RichContent-inner,
+    .HotItem-title,
+    .HotItem-excerpt,
+    .QuestionHeader-title {
+        color: #aaa;
+    }
+
+    .Topstory-mainColumnCard .Card:not(.Topstory-tabCard),
+    .Topstory-tabs,
+    .Topbar,
+    .CommentsV2-withPagination,
+    .NestComment:not(:last-child):after,
+    .NestComment--rootComment:after,
+    .NestComment .NestComment--child:after,
+    .Topstory--old .HotItem:not(:first-child),
+    .Topstory--old .HotListNav,
+    .List-item+.List-item:after,
+    .List-header,
+    .CommentsV2-footer {
+        border: none;
+    }
+
+    .Topstory-mainColumn,
+    .QuestionHeader-main,
+    .Question-mainColumn {
+        width: 100%;
+    }
+}
